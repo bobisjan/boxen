@@ -2,10 +2,13 @@
 # it to provide any custom code or behavior your Boxen setup requires.
 
 # Change the prefix boxen is installed to.
-# ENV['BOXEN_HOME'] = '/opt/boxen'
+ENV['BOXEN_HOME'] = '/opt/boxen'
 
 # Change the repo boxen will use.
-# ENV['BOXEN_REPO_NAME'] = 'boxen/our-boxen'
+ENV['BOXEN_REPO_NAME'] = 'bobisjan/boxen'
+
+# Change the project repos directory.
+ENV['BOXEN_SRC_DIR'] = '/Users/#{user}/Developer'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''

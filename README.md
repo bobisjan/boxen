@@ -1,10 +1,8 @@
-# Our Boxen
+# Boxen
 
-This is a template Boxen project designed for your organization to fork and
-modify appropriately.
+This is a my personal Boxen setup.
 The Boxen rubygem and the Boxen puppet modules are only a framework for getting
 things done.
-This repository template is just a basic example of _how_ to do things with them.
 
 ## Getting Started
 
