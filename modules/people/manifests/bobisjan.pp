@@ -5,6 +5,7 @@ class people::bobisjan {
     include osx::finder::unhide_library
     
     include dropbox
+    include skype
 
     $home = "/Users/${::boxen_user}"
 
