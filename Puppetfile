@@ -56,3 +56,4 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "osx",        "2.2.0"
+github "dropbox",    "1.1.2"
