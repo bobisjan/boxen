@@ -8,7 +8,7 @@ ENV['BOXEN_HOME'] = '/opt/boxen'
 ENV['BOXEN_REPO_NAME'] = 'bobisjan/boxen'
 
 # Change the project repos directory.
-ENV['BOXEN_SRC_DIR'] = '/Users/#{user}/Developer'
+ENV['BOXEN_SRC_DIR'] = '~/Developer'
 
 # Boxen binary packaging
 # ENV["BOXEN_S3_ACCESS_KEY"] = ''
