@@ -68,6 +68,9 @@ node default {
 
   # default ruby versions
   include ruby::2_0_0
+  
+  # cocoapods
+  include cocoapods
 
   # common, useful packages
   package {

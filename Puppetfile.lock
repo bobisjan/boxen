@@ -84,6 +84,11 @@ GITHUBTARBALL
     xquartz (1.1.0)
 
 GITHUBTARBALL
+  remote: jjtorroglosa/puppet-cocoapods
+  specs:
+    cocoapods (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -95,6 +100,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.3.4)
+  cocoapods (= 1.0.0)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.2)
   foreman (= 1.0.0)
