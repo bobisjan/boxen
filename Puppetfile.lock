@@ -24,6 +24,11 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-github_for_mac
+  specs:
+    github_for_mac (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.5.1)
@@ -105,6 +110,7 @@ DEPENDENCIES
   dropbox (= 1.1.2)
   foreman (= 1.0.0)
   git (= 1.2.5)
+  github_for_mac (= 1.0.1)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)

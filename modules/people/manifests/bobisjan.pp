@@ -4,7 +4,7 @@ class people::bobisjan {
     include osx::finder::show_all_on_desktop
     include osx::finder::unhide_library
 
-#    include github::apps::mac
+    include github_for_mac
 
     include dropbox
 #    include skype
