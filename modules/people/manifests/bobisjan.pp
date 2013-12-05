@@ -4,6 +4,8 @@ class people::bobisjan {
     include osx::finder::show_all_on_desktop
     include osx::finder::unhide_library
 
+    include heroku
+
     include github_for_mac
 
     include dropbox
