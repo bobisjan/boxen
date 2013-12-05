@@ -7,7 +7,7 @@ class people::bobisjan {
     include github_for_mac
 
     include dropbox
-#    include skype
+    include skype
 
     $home = "/Users/${::boxen_user}"
 
