@@ -104,6 +104,11 @@ GITHUBTARBALL
     cocoapods (1.0.0)
 
 GITHUBTARBALL
+  remote: ngs/puppet-testflight
+  specs:
+    testflight (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.0)
@@ -136,5 +141,6 @@ DEPENDENCIES
   skype (= 1.0.7)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  testflight (= 1.0.0)
   xquartz (= 1.1.0)
 

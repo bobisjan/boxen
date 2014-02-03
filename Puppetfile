@@ -58,6 +58,7 @@ github "cocoapods",  "1.0.0", :repo => "jjtorroglosa/puppet-cocoapods"
 
 github "osx",            "2.2.0"
 github "github_for_mac", "1.0.1"
+github "testflight",     "1.0.0", :repo => "ngs/puppet-testflight"
 github "dropbox",        "1.1.2"
 github "skype",          "1.0.7"
 github "heroku",         "2.1.1"
