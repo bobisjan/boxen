@@ -10,6 +10,7 @@ class people::bobisjan {
 
     include github_for_mac
 
+    include cocoapods
     include testflight
     include dropbox
     include skype
