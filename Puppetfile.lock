@@ -69,6 +69,11 @@ GITHUBTARBALL
     intellij (1.5.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.5.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.3)
@@ -170,6 +175,7 @@ DEPENDENCIES
   induction (= 1.0.0)
   inifile (= 1.0.3)
   intellij (= 1.5.1)
+  java (= 1.5.0)
   module-data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
