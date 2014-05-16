@@ -7,6 +7,7 @@ class people::bobisjan {
     include chrome
     include cocoapods
     include dropbox
+    include firefox
     include git
     include github_for_mac
     include heroku
