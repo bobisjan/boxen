@@ -17,13 +17,10 @@ class people::bobisjan {
     include skype
     include testflight
 
-    class { 'intellij':
-      edition => 'ultimate',
-      version => '13.1.2'
-    }
-
     git::config::global { 'user.email': value  => 'me@bobisjan.com' }
     git::config::global { 'user.name': value  => 'Jan Bobisud' }
+
+    class { 'intellij': edition => 'ultimate', version => '13.1.2' }
 
     nodejs::module { 'ember-cli': node_version => 'v0.10' }
     nodejs::module { 'bower': node_version => 'v0.10' }
