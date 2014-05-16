@@ -12,6 +12,7 @@ class people::bobisjan {
     include heroku
     include induction
     include java
+    include phantomjs
     include postgresapp
     include skype
     include testflight
@@ -26,6 +27,8 @@ class people::bobisjan {
 
     nodejs::module { 'ember-cli': node_version => 'v0.10' }
     nodejs::module { 'bower': node_version => 'v0.10' }
+
+    phantomjs::global { '1.9.0': }
 
     $home = "/Users/${::boxen_user}"
 }
