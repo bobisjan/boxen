@@ -60,6 +60,7 @@ github "xquartz",     "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "atom",           "1.0.0", :repo => "tarebyte/puppet-atom"
 github "chrome",         "1.1.2"
 github "cocoapods",      "1.0.0", :repo => "jjtorroglosa/puppet-cocoapods"
 github "dropbox",        "1.1.2"

@@ -4,6 +4,7 @@ class people::bobisjan {
     include osx::finder::show_all_on_desktop
     include osx::finder::unhide_library
 
+    include atom
     include chrome
     include cocoapods
     include dropbox

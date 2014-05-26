@@ -163,7 +163,13 @@ GITHUBTARBALL
   specs:
     module-data (0.0.3)
 
+GITHUBTARBALL
+  remote: tarebyte/puppet-atom
+  specs:
+    atom (1.0.0)
+
 DEPENDENCIES
+  atom (= 1.0.0)
   boxen (= 3.4.2)
   chrome (= 1.1.2)
   cocoapods (= 1.0.0)
