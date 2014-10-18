@@ -6,14 +6,11 @@ class people::bobisjan {
 
     include atom
     include chrome
-    include cocoapods
-    include dropbox
-    include firefox
+    # include cocoapods
     include git
     include github_for_mac
     include heroku
     include induction
-    include java
     include phantomjs
     include postgresapp
     include skype
@@ -21,8 +18,6 @@ class people::bobisjan {
 
     git::config::global { 'user.email': value  => 'me@bobisjan.com' }
     git::config::global { 'user.name': value  => 'Jan Bobisud' }
-
-    class { 'intellij': edition => 'ultimate', version => '13.1.2' }
 
     nodejs::module { 'ember-cli': node_version => 'v0.10' }
     nodejs::module { 'bower': node_version => 'v0.10' }
