@@ -66,6 +66,9 @@ node default {
   # node versions
   include nodejs::v0_10
 
+  # set the global nodejs version
+  class { 'nodejs::global': version => 'v0.10' }
+
   # default ruby versions
   ruby::version { '2.0.0': }
   ruby::version { '2.1.0': }
