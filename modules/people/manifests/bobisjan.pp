@@ -11,6 +11,7 @@ class people::bobisjan {
     include github_for_mac
     include heroku
     include induction
+    include java
     include phantomjs
     include postgresapp
     include skype
