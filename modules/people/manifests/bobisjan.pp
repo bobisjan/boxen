@@ -19,6 +19,9 @@ class people::bobisjan {
     git::config::global { 'user.email': value  => 'me@bobisjan.com' }
     git::config::global { 'user.name': value  => 'Jan Bobisud' }
 
+    # set the global nodejs version
+    class { 'nodejs::global': version => 'v0.10' }
+
     nodejs::module { 'ember-cli': node_version => 'v0.10' }
     nodejs::module { 'bower': node_version => 'v0.10' }
 
