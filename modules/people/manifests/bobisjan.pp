@@ -13,7 +13,8 @@ class people::bobisjan {
     include induction
     include java
     include phantomjs
-    include postgresapp
+    include pycharm
+    # include postgresapp
     include skype
     include testflight
 
