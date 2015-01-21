@@ -7,6 +7,7 @@ class people::bobisjan {
     include atom
     include chrome
     # include cocoapods
+    include docker
     include git
     include github_for_mac
     include heroku
@@ -17,6 +18,7 @@ class people::bobisjan {
     # include postgresapp
     include skype
     include testflight
+    include virtualbox
 
     git::config::global { 'user.email': value  => 'me@bobisjan.com' }
     git::config::global { 'user.name': value  => 'Jan Bobisud' }
