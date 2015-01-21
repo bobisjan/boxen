@@ -48,5 +48,11 @@ class people::bobisjan {
     # set the global phantomjs version
     phantomjs::global { '1.9.0': }
 
+    # install atom's packages
+    atom::package { 'linter': }
+    atom::package { 'linter-hint': }
+    atom::package { 'linter-jscs': }
+    atom::package { 'travis-ci-status': }
+
     $home = "/Users/${::boxen_user}"
 }
