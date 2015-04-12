@@ -16,6 +16,7 @@ class people::bobisjan {
     include phantomjs
     include pycharm
     # include postgresapp
+    include redis
     include skype
     include testflight
     include virtualbox
