@@ -24,6 +24,7 @@ class people::bobisjan {
     git::config::global { 'user.email': value  => 'me@bobisjan.com' }
     git::config::global { 'user.name': value  => 'Jan Bobisud' }
 
+    package { 'watchman': ensure => present }
     package { 'bash-completion': ensure => present }
 
     # set the global ruby version
@@ -37,11 +38,10 @@ class people::bobisjan {
     }
 
     # set the global nodejs version
-    $node_version = 'v0.10'
+    $node_version = 'v0.12.2'
     class { 'nodejs::global': version => $node_version }
 
     nodejs::module { 'bower': node_version => $node_version }
-    nodejs::module { 'watchman': node_version => $node_version }
     nodejs::module { 'ember-cli': node_version => $node_version }
     nodejs::module { 'grunt': node_version => $node_version }
     nodejs::module { 'grunt-cli': node_version => $node_version }
