@@ -54,6 +54,7 @@ class people::bobisjan {
     atom::package { 'linter-hint': }
     atom::package { 'linter-jscs': }
     atom::package { 'travis-ci-status': }
+    atom::package { 'autocomplete-plus-python-jedi': }
 
     $home = "/Users/${::boxen_user}"
 }
